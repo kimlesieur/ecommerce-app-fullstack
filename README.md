@@ -1,4 +1,4 @@
-# e-commerce fullstack app
+# Fullstack e-commerce project : React front-end
 
 This project was made as part of the final evaluation for the full-stack engineer path on [CodeAcademy](https://codeacademy.com/) learning platform.
 The architecture is based on : 
@@ -13,8 +13,8 @@ See more details on the [dedicated Github project page](https://github.com/kimle
 You'll find some docs made with Swagger to get routes details.
 
 ## Online version
-Find the [Heroku hosted version](...) 
-The backedn REST API is also hosted on Heroku.
+Find the [Heroku hosted version](...).
+The backend REST API is also hosted on Heroku.
 
 ## Available Scripts
 
@@ -35,7 +35,7 @@ Authentication was implemented with express-session, passport to manage local au
 - JSON Web Token access : 
 - Google OAuth access : 
 
-## Frontend app Dependencies
+## Dependencies
 
 - Create-react-app : This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 - 
