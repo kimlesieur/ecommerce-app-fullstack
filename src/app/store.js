@@ -1,8 +1,18 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import homepageReducer from '../features/homepage/homepageSlice';
+import headerReducer from '../components/header/headerSlice';
+import cartReducer from '../features/cart/cartSlice';
+import accountReducer from '../features/account/accountSlice';
+import productReducer from '../features/product/productSlice';
+import checkoutReducer from '../components/checkout/checkoutSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    homepage: homepageReducer,
+    header: headerReducer,
+    cart: cartReducer,
+    account: accountReducer,
+    product: productReducer,
+    checkout: checkoutReducer,
   },
 });
